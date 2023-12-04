@@ -21,6 +21,8 @@ app.use(cors({
     origin: process.env.FRONTEND_URL
 }));
 
+//app.use(cors());
+
 const sessionOptions = {
     secret: "any string",
     resave: false,
