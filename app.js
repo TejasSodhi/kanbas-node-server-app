@@ -25,7 +25,7 @@ const app = express();
 //     origin: process.env.FRONTEND_URL
 // }));
 
-app.use(cors());
+//app.use(cors());
 
 const sessionOptions = {
     secret: "any string",
